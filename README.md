@@ -4,16 +4,22 @@ Firewall helper for an extra layer of protection.
 
 ## How to Use:
 
-# Set Webhook URL:
+> [!IMPORTANT]
+> Set Webhook URL
+> 
+> Replace ``YOUR_DISCORD_WEBHOOK_URL`` with your actual Discord webhook URL.
 
-Replace ``YOUR_DISCORD_WEBHOOK_URL`` with your actual Discord webhook URL.
 
-# Dependencies:
+> [!IMPORTANT]
+> Dependencies
+> 
+> Ensure ``tshark``, ``clang``, ``iptables``, ``curl``, and ``hexdump`` are installed.
 
-Ensure ``tshark``, ``clang``, ``iptables``, ``curl``, and ``hexdump`` are installed.
+> [!IMPORTANT]
+> Run the Script
+> 
+> ``bash bpf.sh``
+> Execute the script with appropriate privileges.
 
-# Run the Script:
-
-``bash bpf.sh``
-
-Execute the script with appropriate privileges.
+> [!TIP]
+> If you get a werid output try ``dos2unix bpf.sh`` then run the script ``bash bpf.sh``.
