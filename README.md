@@ -2,6 +2,9 @@
 
 Firewall helper for an extra layer of protection.
 
+## GalaxyGate VPS Hosting with PATH DDOS Protection
+https://billing.galaxygate.net/aff.php?aff=179
+
 ## How to Use:
 
 > [!IMPORTANT]
