@@ -7,7 +7,7 @@ CAPTURE_DURATION="60"  # Capture time (in seconds)
 LOG_FILE="attack_log.txt"
 CAPTURE_FILE="attack_traffic.pcap"
 XDP_OBJ="xdp_filter.o"  # Compiled XDP program object file
-DISCORD_WEBHOOK_URL="YOUR_DISCORD_WEBHOOK_URL"
+DISCORD_WEBHOOK_URL="https://discord.com/api/webhooks/1324347913555677235/_jSOcifEXrJRyJUpY_2EeN5QRfvLHbPNIR5wqBwhm8Dakw3bQZJ9klDwrZ2G09RSo1yE"
 
 # Static terminal interface initialization
 initialize_terminal_interface() {
